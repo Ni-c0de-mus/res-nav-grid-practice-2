@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arima+Madurai|Baloo+Bhai|Baloo+Bhaijaan|Baloo+Bhaina|Bangers|Black+Ops+One|Boogaloo|Bowlby+One+SC|Chewy|Cinzel+Decorative|Fredoka+One|Graduate|Kelly+Slab|Lalezar|Lobster+Two|Luckiest+Guy|Modak|Odibee+Sans|Patua+One|Playball|Poiret+One|Press+Start+2P|Racing+Sans+One|Righteous|Shojumaru|Shrikhand|Squada+One|Turret+Road|Yeon+Sung&display=swap');
+
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+
+ /* Fonts */
+
+ --squada-one: 'Squada One', cursive;
+--patua-one: 'Patua One', cursive;
+--baloo-bhai: 'Baloo Bhai', cursive;
+--alfa-slab-one: 'Alfa Slab One', cursive;
+--fredoka-one: 'Fredoka One', cursive;
+--modak: 'Modak', cursive;
+--lobster-two: 'Lobster Two', cursive;
+--bangers: 'Bangers', cursive;
+--poiret-one: 'Poiret One', cursive;
+--lalezar: 'Lalezar', cursive;
+--press-start: 'Press Start 2P', cursive;
+--luckiest-guy: 'Luckiest Guy', cursive;
+--boogaloo: 'Boogaloo', cursive;
+--turret-road: 'Turret Road', cursive;
+--yeon-sung: 'Yeon Sung', cursive;
+--chewy: 'Chewy', cursive;
+--black-ops-one: 'Black Ops One', cursive;
+--shrikhand: 'Shrikhand', cursive;
+--arima-madurai: 'Arima Madurai', cursive;
+--racing-sans-one: 'Racing Sans One', cursive;
+--cinzel-decor: 'Cinzel Decorative', cursive;
+--baloo-bhaina: 'Baloo Bhaina', cursive;
+--baloo-bhaijaan: 'Baloo Bhaijaan', cursive;
+--shojumari: 'Shojumaru', cursive;
+--graduate: 'Graduate', cursive;
+--kelly-slab: 'Kelly Slab', cursive;
+
+/* Coolors */
+
+--reg-green: #002400;
+--leather-green: #273B09;
+--antique-bronze: #58641D;
+--palm-leaf: #7B904B;
+--gainsboro: #DBD2E0;
+--white: #FFFFFF;
+--cambridge-blue: #9DB5B2;
+--azurish-white: #DAF0EE;
+--pearl-aqua: #94D1BE;
+--ras-pink: #E36397;
+--opera-mauve: #BC8DA7;
+--gray-x11: #BDB4BF;
+--gainsboro-2: #D9D9D9;
+--flash-white: #EFF2EF;
+--desert-sand: #DBD8AE;
+--antique-brass: #CA907E;
+--chestnut: #994636;
+--grizzly: #895B1E;
+--sky-blue: #88D9E6;
+--gray-blue: #8B8BAE;
+--stormcloud: #526760;
+--charcoal: #374B4A;
+--gunmetal: #2D3142;
+--silver: #BFC0C0;
+--red-ochre: #EF8354;
+--black-coral: #4F5D75;
+--cerulean: #2B59C3;
+--st-patrick: #253C78;
+--champion: #D36582;
+--khaki-css: #C9A690;
+--spanish-gray: #A2999E;
+--pastel-brown: #846A6A;
+--onyx: #353B3C;
+--cornflower: #AFCBFF;
+--maastricht: #0E1C36;
+--peach-puff: #F7D4BC;
+--siver-pink: #CFA5B4;
+--purple: #C98BB9;
+--chinese-violet: #846B8A;
+}
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+p {
+ font-size: 1.6rem;
+}
+
+.btn {
+ border-radius: 2rem;
+ background-color: var(--black-coral);
+ color: var(--cornflower);
+ display: inline-block;
+ font-size: 1.2rem;
+ padding: 1rem 2rem;
+ margin-top: 2rem;
+ letter-spacing: .2rem;
+ text-transform: uppercase;
+ transition: 420ms ease;
+}
+
+.btn:hover {
+ background-color: var(--gray-blue);
+ color: var(--black-coral);
+}
+
+section {
+ padding: 5rem 0;
+}
+
+body {
+ font-family: var(--fredoka-one);
+ background: var(--chestnut);
+}
+
+/* Header */
+
+header {
+ width: 100%;
+ height: 7.7rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+
+.container {
+ width: 100%;
+ max-width: 98rem;
+ padding: 0 1.5rem;
+ margin: 0 auto;
+}
+
+.nav__brand {
+ width: 3.5rem;
+}
+
+.menu__icons {
+ font-size: 3.5rem;
+ color: var(--cornflower);
+ cursor: pointer;
+ transition: 420ms ease;
+}
+
+.menu__icons:hover {
+ color: var(--black-coral);
+}
+
+nav {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 1rem;
+}
+
+.nav__list {
+ width: 25rem;
+ height: 100vh;
+ background: var(--palm-leaf);
+ position: fixed;
+ top: 0;
+ right: -26rem;
+ opacity: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: all 630ms ease-in-out, opacity 810ms ease;
+ z-index: 1300;
+}
+
+.nav__list.active {
+ right: 0;
+ opacity: 1;
+}
+
+.close {
+ position: absolute;
+ top: 2rem;
+ left: 2rem;
+}
+
+.nav__item {
+ margin: 1.5rem 0;
+}
+
+.nav__link {
+ font-size: 1.6rem;
+ color: var(--cornflower);
+ text-transform: uppercase;
+ transition: 420ms ease;
+}
+
+.nav__link:hover {
+ color: var(--black-coral);
+}
+
+#hero {
+ width: 100%;
+ height: 80vh;
+ background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%), url('../img/beautifull.jpg') center no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.main__message {
+ width: 100%;
+ max-width: 50rem;
+ color: var(--cornflower);
+ text-transform: uppercase;
+ transform: translateY(20%);
+}
+
+.main__message h3 {
+ font-size: 1.6rem;
+}
+
+.main__message h1 {
+ font-family: var(--luckiest-guy);
+ font-size: 4rem;
+ margin: 2rem 0;
+}
+
+.main__message p {
+ text-transform: lowercase;
+}
+
+/* Activities Grid */
+
+#activities {
+ padding: 0;
+}
+
+.title__heading {
+ padding: 5rem 0;
+ text-align: center;
+ text-transform: uppercase;
+ color: var(--cornflower);
+ font-family: var(--shojumari);
+}
+
+.title__heading h3 {
+ font-size: 1.4rem;
+}
+
+.title__heading h1 {
+ font-size: 2rem;
+ margin: 2rem 0;
+}
+
+.title__heading p {
+ font-size: 1.2rem;
+ text-transform: lowercase;
+}
+
+.activities__grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+ grid-gap: 2.5rem;
+}
+
+.activities__grid__item {
+ height: 40rem;
+ padding: 5rem;
+ border-radius: 2rem;
+ color: var(--cornflower);
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ cursor: pointer;
+ z-index: 1;
+}
+
+.activities__grid__item:before {
+ content: "";
+ border-radius: 2rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+ z-index: -1;
+}
+
+.activities__grid__item i {
+ font-size: 4rem;
+ color: var(--ras-pink);
+}
+
+.activities__grid__item h1 {
+ font-size: 2rem;
+ margin: 1rem 0;
+}
+
+.activities__grid__item p {
+ font-size: 1.4rem;
+}
+
+
+.star__gazing {
+ background: url('../img/naboo.jpg') center no-repeat;
+}
+
+.hiking {
+ background: url('../img/naboo.jpg') center no-repeat;
+}
+
+.camping {
+ background: url('../img/naboo.jpg') center no-repeat;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+ .nav__list {
+  width: initial;
+  height: initial;
+  background: transparent;
+  position: initial;
+  top: initial;
+  right: initial;
+  opacity: initial;
+  flex-direction: row;
+  transition: initial;
+ }
+
+ .nav__link {
+  margin: 0 2rem;
+ }
+
+ .menu__icons {
+  display: none;
+ }
+}
