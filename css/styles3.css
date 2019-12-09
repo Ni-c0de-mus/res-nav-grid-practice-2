@@ -16,73 +16,73 @@
  /* Fonts */
 
  --squada-one: 'Squada One', cursive;
---patua-one: 'Patua One', cursive;
---baloo-bhai: 'Baloo Bhai', cursive;
---alfa-slab-one: 'Alfa Slab One', cursive;
---fredoka-one: 'Fredoka One', cursive;
---modak: 'Modak', cursive;
---lobster-two: 'Lobster Two', cursive;
---bangers: 'Bangers', cursive;
---poiret-one: 'Poiret One', cursive;
---lalezar: 'Lalezar', cursive;
---press-start: 'Press Start 2P', cursive;
---luckiest-guy: 'Luckiest Guy', cursive;
---boogaloo: 'Boogaloo', cursive;
---turret-road: 'Turret Road', cursive;
---yeon-sung: 'Yeon Sung', cursive;
---chewy: 'Chewy', cursive;
---black-ops-one: 'Black Ops One', cursive;
---shrikhand: 'Shrikhand', cursive;
---arima-madurai: 'Arima Madurai', cursive;
---racing-sans-one: 'Racing Sans One', cursive;
---cinzel-decor: 'Cinzel Decorative', cursive;
---baloo-bhaina: 'Baloo Bhaina', cursive;
---baloo-bhaijaan: 'Baloo Bhaijaan', cursive;
---shojumari: 'Shojumaru', cursive;
---graduate: 'Graduate', cursive;
---kelly-slab: 'Kelly Slab', cursive;
+ --patua-one: 'Patua One', cursive;
+ --baloo-bhai: 'Baloo Bhai', cursive;
+ --alfa-slab-one: 'Alfa Slab One', cursive;
+ --fredoka-one: 'Fredoka One', cursive;
+ --modak: 'Modak', cursive;
+ --lobster-two: 'Lobster Two', cursive;
+ --bangers: 'Bangers', cursive;
+ --poiret-one: 'Poiret One', cursive;
+ --lalezar: 'Lalezar', cursive;
+ --press-start: 'Press Start 2P', cursive;
+ --luckiest-guy: 'Luckiest Guy', cursive;
+ --boogaloo: 'Boogaloo', cursive;
+ --turret-road: 'Turret Road', cursive;
+ --yeon-sung: 'Yeon Sung', cursive;
+ --chewy: 'Chewy', cursive;
+ --black-ops-one: 'Black Ops One', cursive;
+ --shrikhand: 'Shrikhand', cursive;
+ --arima-madurai: 'Arima Madurai', cursive;
+ --racing-sans-one: 'Racing Sans One', cursive;
+ --cinzel-decor: 'Cinzel Decorative', cursive;
+ --baloo-bhaina: 'Baloo Bhaina', cursive;
+ --baloo-bhaijaan: 'Baloo Bhaijaan', cursive;
+ --shojumari: 'Shojumaru', cursive;
+ --graduate: 'Graduate', cursive;
+ --kelly-slab: 'Kelly Slab', cursive;
 
-/* Coolors */
+ /* Coolors */
 
---reg-green: #002400;
---leather-green: #273B09;
---antique-bronze: #58641D;
---palm-leaf: #7B904B;
---gainsboro: #DBD2E0;
---white: #FFFFFF;
---cambridge-blue: #9DB5B2;
---azurish-white: #DAF0EE;
---pearl-aqua: #94D1BE;
---ras-pink: #E36397;
---opera-mauve: #BC8DA7;
---gray-x11: #BDB4BF;
---gainsboro-2: #D9D9D9;
---flash-white: #EFF2EF;
---desert-sand: #DBD8AE;
---antique-brass: #CA907E;
---chestnut: #994636;
---grizzly: #895B1E;
---sky-blue: #88D9E6;
---gray-blue: #8B8BAE;
---stormcloud: #526760;
---charcoal: #374B4A;
---gunmetal: #2D3142;
---silver: #BFC0C0;
---red-ochre: #EF8354;
---black-coral: #4F5D75;
---cerulean: #2B59C3;
---st-patrick: #253C78;
---champion: #D36582;
---khaki-css: #C9A690;
---spanish-gray: #A2999E;
---pastel-brown: #846A6A;
---onyx: #353B3C;
---cornflower: #AFCBFF;
---maastricht: #0E1C36;
---peach-puff: #F7D4BC;
---siver-pink: #CFA5B4;
---purple: #C98BB9;
---chinese-violet: #846B8A;
+ --reg-green: #002400;
+ --leather-green: #273B09;
+ --antique-bronze: #58641D;
+ --palm-leaf: #7B904B;
+ --gainsboro: #DBD2E0;
+ --white: #FFFFFF;
+ --cambridge-blue: #9DB5B2;
+ --azurish-white: #DAF0EE;
+ --pearl-aqua: #94D1BE;
+ --ras-pink: #E36397;
+ --opera-mauve: #BC8DA7;
+ --gray-x11: #BDB4BF;
+ --gainsboro-2: #D9D9D9;
+ --flash-white: #EFF2EF;
+ --desert-sand: #DBD8AE;
+ --antique-brass: #CA907E;
+ --chestnut: #994636;
+ --grizzly: #895B1E;
+ --sky-blue: #88D9E6;
+ --gray-blue: #8B8BAE;
+ --stormcloud: #526760;
+ --charcoal: #374B4A;
+ --gunmetal: #2D3142;
+ --silver: #BFC0C0;
+ --red-ochre: #EF8354;
+ --black-coral: #4F5D75;
+ --cerulean: #2B59C3;
+ --st-patrick: #253C78;
+ --champion: #D36582;
+ --khaki-css: #C9A690;
+ --spanish-gray: #A2999E;
+ --pastel-brown: #846A6A;
+ --onyx: #353B3C;
+ --cornflower: #AFCBFF;
+ --maastricht: #0E1C36;
+ --peach-puff: #F7D4BC;
+ --siver-pink: #CFA5B4;
+ --purple: #C98BB9;
+ --chinese-violet: #846B8A;
 }
 
 html {
@@ -221,7 +221,7 @@ nav {
 #hero {
  width: 100%;
  height: 80vh;
- background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%), url('../img/beautifull.jpg') center no-repeat;
+ background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%), url('../img/beautifull.jpg') center no-repeat;
  background-size: cover;
  position: relative;
 }
@@ -303,7 +303,7 @@ nav {
  left: 0;
  width: 100%;
  height: 100%;
- background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+ background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
  z-index: -1;
 }
 
@@ -333,6 +333,188 @@ nav {
 .camping {
  background: url('../img/naboo.jpg') center no-repeat;
 }
+
+/* Transport Grid */
+
+#transport {
+ padding: 0;
+ margin-top: 17rem;
+ padding-bottom: 17rem;
+ background: var(--chinese-violet);
+}
+
+.title__heading__2 {
+ text-align: center;
+ padding: 5rem 0;
+ font-family: var(--graduate);
+ text-transform: uppercase;
+ color: var(--azurish-white)
+}
+
+.title__heading__2 h3 {
+ font-size: 1.6rem;
+}
+
+.title__heading__2 h1 {
+ font-size: 2rem;
+ margin: 1.5rem 0;
+}
+
+.title__heading__2 p {
+ font-size: 1.4rem;
+ text-transform: lowercase;
+}
+
+.transport__grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+ grid-gap: 2.5rem;
+}
+
+.transport__grid__item {
+ height: 40rem;
+ padding: 5rem;
+ border-radius: 2rem;
+ font-family: var(--lalezar);
+ color: var(--azurish-white);
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ cursor: pointer;
+ z-index: 1;
+}
+
+.transport__grid__item:before {
+ content: "";
+ border-radius: 2rem;
+ background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ z-index: -1;
+}
+
+.car {
+ background: url('../img/X-Wing.jpeg') center no-repeat;
+}
+
+.jet {
+ background: url('../img/naboo.jpg') center no-repeat;
+}
+
+.boat {
+ background: url('../img/y-wing.jpeg') center no-repeat;
+}
+
+.transport__grid__item i {
+ font-size: 4rem;
+ color: var(--palm-leaf);
+}
+
+.transport__grid__item h1 {
+ font-family: var(--shojumari);
+ font-size: 2rem;
+ margin: 1.5rem 0;
+}
+
+.transport__grid__item p {
+ font-size: 1.4rem;
+}
+
+/* Weather Grid */
+
+#weather {
+ padding: 0;
+ margin-top: 17rem;
+ padding-bottom: 17rem;
+ background: var(--st-patrick);
+ color: var(--silver);
+}
+
+.weather__heading {
+ text-align: center;
+ padding: 5rem 0;
+ font-family: var(--yeon-sung);
+ text-transform: uppercase;
+}
+
+.weather__heading h1 {
+ font-family: var(--squada-one);
+ letter-spacing: .2rem;
+ margin: 1.3rem;
+ font-size: 2rem;
+}
+
+.weather__heading p {
+ font-size: 1.6rem;
+ text-transform: lowercase;
+}
+
+.weather__grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+ grid-gap: 2.5rem;
+}
+
+.weather__grid__item {
+ height: 40rem;
+ padding: 5rem;
+ font-family: var(--yeon-sung);
+ border-radius: 2rem;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ cursor: pointer;
+ z-index: 1;
+}
+
+.weather__grid__item:before {
+ content: "";
+ border-radius: 2rem;
+ background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+}
+
+.rainy {
+ background: url('../img/X-Wing.jpeg') center no-repeat;
+}
+
+.sunny {
+ background: url('../img/naboo.jpg') center no-repeat;
+}
+
+.windy {
+ background: url('../img/X-Wing.jpeg') center no-repeat;
+}
+
+.weather__grid__item i {
+ font-size: 3rem;
+ color: var(--ras-pink);
+}
+
+.weather__grid__item h1 {
+ font-size: 2rem;
+ font-family: var(--cinzel-decor);
+ margin: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
